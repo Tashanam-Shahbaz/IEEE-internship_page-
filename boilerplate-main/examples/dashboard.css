@@ -1,0 +1,154 @@
+.cs_job_container{
+    border-top: 5px groove #ff8fda;
+    padding: 2% 2% 2% 2% !important;
+    font-family: "Time New Roman" !important;
+   /* background-image: url(t1.png); */
+   /* background-size: 100% 100%; */
+   /* background: linear-gradient(0deg,rgba(255, 254, 254, 0.719),rgba(185, 181, 181, 0.507));  */
+   background: white !important; 
+   margin :5% 5% 5% 15% !important;
+    width:70% !important;
+    font-style:italic !important;
+    color:grey!important;
+    border-radius: 2% !important;
+    transition: 0.4s !important;
+ }
+.cs_job_container:hover{
+    /* box-shadow:2px 2px 2px 2px #ff027480 !important; */
+    transform: scale(1.02) !important;
+ }
+   
+@media screen and(max-width:930px){
+   .cs_skill_row{
+      display: block !important;
+   }
+   .cs_skill_container{
+      display: block !important;
+   }
+}
+@media screen and(min-width:920px){
+   .cs_skill_row{
+      display: block !important;
+   }
+}
+ 
+ .cs_company_name{
+   border-right: 2px groove rgb(255, 255, 255) !important;
+ }
+
+ .skill_container {
+    margin-top:1.5% !important;
+   width: 100% !important;
+   background-color: rgb(192, 192, 192) !important;
+   height: 13px !important;
+   border-radius: 5% !important;
+  
+ }
+ 
+ .skills {
+    font-size: 12px !important;
+   text-align: right !important;
+   color: white !important;  
+   margin-left: -25% !important;
+  
+   
+ }
+ 
+ .skill1 {width: 90%; background-color: #c51162; height: 13px;margin-left: -7% !important ; }
+ .skill2 {width: 65%; background-color: #d500f9 ;  height: 13px;margin-left: -7% !important; }
+ .skill3 {width: 80%; background-color:#00bfa5; height: 13px;margin-left: -7% !important; }
+ .skill4 {width: 60%; background-color:#ff8a65   ;  height: 13px;margin-left: -7% !important; }
+
+ .cs_skill_row{
+    padding:2% 2% 2% 2% !important;
+ }
+
+ .cs_job_button{
+    background-color: #e2257a !important;
+    margin-left:5% !important;  
+    width: 20% !important;
+ }
+ .cs_job_button:hover{
+    background-color: #8f2c59 !important;
+ }
+ /* /* .cs_skill_name{
+    width: fi;
+    height: fit-content;
+   background: linear-gradient(180deg,rgba(255, 254, 254, 0.719),  #e43986da)!important; 
+ } */
+.cs_company_name h5{
+   color:grey !important;
+   width: 75% !important;
+   /* background: linear-gradient(180deg,rgba(255, 254, 254, 0) 50%, #e65998  50%)!important;  */
+}
+.cs_heading_3{
+   margin-left: 30%;
+   width: 40% !important;
+   /* background: linear-gradient(180deg,rgba(255, 254, 254, 0) 50%, #e65998  50%)!important; */
+}
+ .btn-primary:focus,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0 !important;
+}
+ 
+@media  only screen and (max-width:770px) {
+   .cs_company_name{border-right: none !important;}
+
+   .skill_container{
+      width: 80% !important;
+      margin: 0% 5% 0% 5% !important;    
+   }
+   .skills{
+      
+      width: 80% !important;
+      margin: 0% 5% 0% 5% !important;
+      margin-left: -7% !important;
+
+   }
+   .cs_skill_name{
+      margin-left: 5% !important;
+     }   
+   
+
+}
+
+.cs_f_image{
+   
+   width:70% !important;
+   height: 20% !important;
+}
+
+.cs_job_detail{
+    margin: 5% 5% 5% 15% !important;
+    padding:  5% 5% 5% 5% !important;
+    font-size: 17px !important;
+    width: 70% !important;
+    height: 150% !important;
+    /* background: linear-gradient(180deg,rgba(255, 254, 254, 0.575),rgba(185, 181, 181, 0.507)) !important;  */
+    background-color: white !important;
+    transition: 0.5s;
+    color:grey !important;
+    border-radius:5% !important;
+ }
+ .job_para{
+    transition: 0.4s;
+    border-radius: 2% !important;
+    border-left: 1.5px dashed  #e2257a!important;
+   
+ }
+ .job_para:hover{
+    color: #315272;
+ }
+ 
+ .cs_job_detail:hover{
+    background: linear-gradient(180deg,rgba(255, 254, 254, 0.719),rgba(185, 181, 181, 0.507)) !important; 
+ }
+ .cs_jobdetail_skill{
+    margin:0% 0% 0% -1% !important;
+    width: 70% !important;
+    
+ }
+ 
+ 
