@@ -74,10 +74,11 @@
    
  }
  
- .skill1 {width: 90%; background-color: #c51162; height: 13px;margin-left: -7% !important ; }
- .skill2 {width: 65%; background-color: #d500f9 ;  height: 13px;margin-left: -7% !important; }
- .skill3 {width: 80%; background-color:#00bfa5; height: 13px;margin-left: -7% !important; }
- .skill4 {width: 60%; background-color:#ff8a65   ;  height: 13px;margin-left: -7% !important; }
+ .skill1 {width: 95%; background-color: #c51162; height: 13px;margin-left: -7% !important ; }
+ .skill2 {width: 70%; background-color: #d500f9 ;  height: 13px;margin-left: -7% !important; }
+ .skill3 {width: 70%; background-color:#00bfa5; height: 13px;margin-left: -7% !important; }
+ .skill4 {width: 30%; background-color:#ff8a65   ;  height: 13px;margin-left: -7% !important; }
+
 
  .cs_skill_row{
     padding:2% 2% 2% 2% !important;
@@ -206,4 +207,93 @@
  .cs_button_rows div{
    margin:0% 0% 3% 3% !important;
  }
+
+
+ /* MHANOOR CODE */
+
+ .card-user .card-image {
+   height: 110px;
+ }
+ .card .card-image {
+   width: 100%;
+   overflow: hidden;
+   border-radius: 4px 4px 0 0;
+   position: relative;
+   transform-style: preserve-3d;
+ }
+ .card-user .card-body {
+   min-height: 200px;
+ }
+ 
+ .card-skill{
+   margin-top: -70px;
+ }
+ .card-user .profilecard {
+   text-align: center;
+   text-transform: none;
+   margin-top: -70px;
+ }
+ .card .profilecard{
+   font-size: 12px;
+   font-weight: 600;
+ }
+ .card-user .avatar.border-gray {
+   border-color: #EEEEEE;
+ }
+ .card .description {
+   font-size: 14px;
+   color: #333;
+ }
+
+ .card-details .card-body  {
+   min-height: 350px;
+ }
+ .resumeBtn p a {
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 8px;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ .card-details .card-experience{
+   width: 600px;
+   float: inline-end;
+ }
+ 
+ @media (max-width:768px) {
+   .card-details{
+     width: 100%;
+     float: none;
+   }
+   .card-skill{
+     margin-top: 0px;
+   }
+ }
+ 
+ .cs_job_detail_2{
+     margin-bottom: 7% !important;
+ }
+ @media  only screen and (max-width:600px) {
+   .cs_job_detail_2{
+       margin-bottom: 1% !important;
+   } 
+ }
+  /* .card-user .avatar {
+   width: 124px;
+   height: 124px;
+   border: 5px solid #FFFFFF;
+   position: relative;
+   margin-bottom: 15px;
+ }
+ .card .avatar {
+   width: 30px;
+   height: 30px;
+   overflow: hidden;
+   border-radius: 50%;
+   margin-right: 5px;
+ } */
+ 
  
